@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <?php include 'index.php';?>
+    <form method="post" action="index.php">
+
+    <label>Name</label>
+    <input name="name" placeholder="First and last">
+
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Work email please">
+
+    <label>Message</label>
+    <textarea id="message" name="message" placeholder="What's on your mind?"></textarea>
+
+    <label>What is 2+2?</label>
+    <input name="human" placeholder="Just making sure you're not a robot">
+    <button id="submit" name="submit" type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
