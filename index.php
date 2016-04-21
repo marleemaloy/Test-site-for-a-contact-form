@@ -2,9 +2,9 @@
      $name = $_POST['name'];
      $email = $_POST['email'];
      $message = $_POST['message'];
-     $from = 'From: TangledDemo';
-     $to = 'demo@tangledindesign.com';
-     $subject = 'Hello';
+     $from = 'From: ' + $name;
+     $to = 'santino.dela@lookout-software.com';
+     $subject = $name + 'filled out the LookOut Corporate contact form.';
      $human = $_POST['human'];
 
      $body = "From: $name\n E-Mail: $email\n Message:\n $message";
