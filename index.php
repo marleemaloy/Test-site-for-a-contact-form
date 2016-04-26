@@ -1,4 +1,6 @@
 <?php
+  header( 'Location: http://marleemaloy.github.io/test-site-for-a-contact-form/' );
+  exit();
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
